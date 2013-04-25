@@ -1,10 +1,3 @@
-require 'sinatra/base'
-require 'dm-core'
-require 'dm-migrations'
-require 'dm-serializer/to_json'
-require 'json'
-require 'haml'
-require 'pry'
 DataMapper::Logger.new($stdout, :debug)
 DataMapper.setup(:default, 'postgres://Lin@localhost/maklog')
 
